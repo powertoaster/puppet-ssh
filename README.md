@@ -74,7 +74,7 @@ class { 'ssh':
 ```yaml
 ssh::storeconfigs_enabled: true
 
-ssh::server_options:
+ssh::server::options:
     Protocol: '2'
     ListenAddress:
         - '127.0.0.0'
